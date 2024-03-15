@@ -3,7 +3,7 @@ WSGI config for student_management_system project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
-For more information on this file, see t
+For more information on this file, see tt
 https://docs.djangoproject.com/en/3.0/howto/deployment/wsgi/
 """
 
