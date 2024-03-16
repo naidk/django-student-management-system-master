@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash/cmd
 set -e
 
 # Replace {YOUR_GIT_REOPO_URL} with your actual Git repository URL
