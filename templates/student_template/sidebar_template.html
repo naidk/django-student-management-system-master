@@ -28,7 +28,7 @@
             
             <li class="nav-item">
               {% url 'student_home' as student_home %}
-              <a href="{{ student_home }}" class="nav-link {% if request.path == student_home %} active {% endif %}">
+              <a href="{{ student_home }}" class="nav-link {% if request.path == student_home %} active {% endif %}" style="color: black;">
                 <i class="nav-icon fas fa-tachometer-alt"></i>
                 <p>
                   Home
@@ -39,7 +39,7 @@
 
             <li class="nav-item">
               {% url 'student_view_attendance' as student_view_attendance %}
-              <a href="{{ student_view_attendance }}" class="nav-link {% if request.path == student_view_attendance %} active {% endif %}">
+              <a href="{{ student_view_attendance }}" class="nav-link {% if request.path == student_view_attendance %} active {% endif %}" style="color: black;">
                 <i class="nav-icon fas fa-calendar-alt"></i>
                 <p>
                   View Attendance
@@ -50,7 +50,7 @@
 
             <li class="nav-item">
               {% url 'student_view_result' as student_view_result %}
-              <a href="{{ student_view_result }}" class="nav-link {% if request.path == student_view_result %} active {% endif %}">
+              <a href="{{ student_view_result }}" class="nav-link {% if request.path == student_view_result %} active {% endif %}" style="color: black;">
                 <i class="nav-icon fas fa-tasks"></i>
                 <p>
                   View Result
@@ -61,7 +61,7 @@
 
             <li class="nav-item">
               {% url 'student_apply_leave' as student_apply_leave %}
-              <a href="{{ student_apply_leave }}" class="nav-link {% if request.path == student_apply_leave %} active {% endif %}">
+              <a href="{{ student_apply_leave }}" class="nav-link {% if request.path == student_apply_leave %} active {% endif %}" style="color: black;">
                 <i class="nav-icon fas fa-envelope-open-text"></i>
                 <p>
                   Apply for Leave
@@ -72,7 +72,7 @@
 
             <li class="nav-item">
               {% url 'student_feedback' as student_feedback %}
-              <a href="{{ student_feedback }}" class="nav-link {% if request.path == student_feedback %} active {% endif %}">
+              <a href="{{ student_feedback }}" class="nav-link {% if request.path == student_feedback %} active {% endif %}" style="color: black;">
                 <i class="nav-icon fas fa-comments"></i>
                 <p>
                   Send Feedback
